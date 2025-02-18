@@ -1,0 +1,1 @@
+The host command is a simple DNS lookup utility that is widely used to query DNS (Domain Name System) records for a given domain. It provides a user-friendly way to retrieve different types of DNS records, such as A (address) records, MX (mail exchange) records, CNAME (canonical name) records, and others.
