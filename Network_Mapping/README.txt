@@ -1,5 +1,5 @@
---------------------Raw Soketler ve Protokoller--------------------
-Raw soket oluştururken belirttiğiniz protokol, hangi tür verilerin soket üzerinden gönderileceğini belirler. SOCK_RAW türündeki bir soket, IP başlığını ve alt protokolleri doğrudan kontrol etmenizi sağlar. Bu nedenle, protokol tipi doğru şekilde ayarlanmalıdır.
+--------------------Raw Soketler ve Protokoller Hakkında --------------------
+SOCK_RAW türündeki bir soket, IP başlığını ve alt protokolleri doğrudan kontrol etmenizi sağlar. Bu nedenle, protokol tipi doğru şekilde ayarlanmalıdır.
 
 IPPROTO_* sabitleri, çeşitli protokoller için kullanılabilir. İşte en yaygın kullanılan bazı protokoller:
 
@@ -111,8 +111,7 @@ Bir TCP Paketinin Yapısı:
 
 
 
-Bir paketin yapısı
-
+Bir paketin yapısı:
 
 ------------------------------------------
 |           Pseudo Header               |
